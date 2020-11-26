@@ -1,0 +1,20 @@
+.menu-toggle {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: opacity, left .22s ease;
+  z-index: 100;
+
+  &:hover {
+    opacity: .7;
+  }
+
+  &.open {
+    right: 70%;
+  }
+}
